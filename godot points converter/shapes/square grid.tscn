@@ -1,0 +1,215 @@
+[gd_scene load_steps=3 format=3 uid="uid://c2fdgm6kxe5p"]
+
+[ext_resource type="Script" path="res://multi.gd" id="1_ck4bc"]
+[ext_resource type="Texture2D" uid="uid://uo2th7eqqutj" path="res://circle.png" id="2_08ttd"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_ck4bc")
+
+[node name="frame" type="Camera2D" parent="."]
+
+[node name="eyeL" type="Node2D" parent="."]
+
+[node name="Circle" type="Sprite2D" parent="eyeL"]
+position = Vector2(-60, -60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle2" type="Sprite2D" parent="eyeL"]
+position = Vector2(60, -60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle3" type="Sprite2D" parent="eyeL"]
+position = Vector2(60, 60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle4" type="Sprite2D" parent="eyeL"]
+position = Vector2(-60, 60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="eyeL2" type="Node2D" parent="."]
+position = Vector2(180, 0)
+
+[node name="Circle" type="Sprite2D" parent="eyeL2"]
+position = Vector2(-60, -60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle2" type="Sprite2D" parent="eyeL2"]
+position = Vector2(60, -60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle3" type="Sprite2D" parent="eyeL2"]
+position = Vector2(60, 60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle4" type="Sprite2D" parent="eyeL2"]
+position = Vector2(-60, 60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="eyeL3" type="Node2D" parent="."]
+position = Vector2(-180, 0)
+
+[node name="Circle" type="Sprite2D" parent="eyeL3"]
+position = Vector2(-60, -60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle2" type="Sprite2D" parent="eyeL3"]
+position = Vector2(60, -60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle3" type="Sprite2D" parent="eyeL3"]
+position = Vector2(60, 60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle4" type="Sprite2D" parent="eyeL3"]
+position = Vector2(-60, 60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="eyeL4" type="Node2D" parent="."]
+position = Vector2(0, 180)
+
+[node name="Circle" type="Sprite2D" parent="eyeL4"]
+position = Vector2(-60, -60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle2" type="Sprite2D" parent="eyeL4"]
+position = Vector2(60, -60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle3" type="Sprite2D" parent="eyeL4"]
+position = Vector2(60, 60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle4" type="Sprite2D" parent="eyeL4"]
+position = Vector2(-60, 60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="eyeL5" type="Node2D" parent="."]
+position = Vector2(180, 180)
+
+[node name="Circle" type="Sprite2D" parent="eyeL5"]
+position = Vector2(-60, -60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle2" type="Sprite2D" parent="eyeL5"]
+position = Vector2(60, -60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle3" type="Sprite2D" parent="eyeL5"]
+position = Vector2(60, 60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle4" type="Sprite2D" parent="eyeL5"]
+position = Vector2(-60, 60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="eyeL6" type="Node2D" parent="."]
+position = Vector2(-180, 180)
+
+[node name="Circle" type="Sprite2D" parent="eyeL6"]
+position = Vector2(-60, -60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle2" type="Sprite2D" parent="eyeL6"]
+position = Vector2(60, -60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle3" type="Sprite2D" parent="eyeL6"]
+position = Vector2(60, 60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle4" type="Sprite2D" parent="eyeL6"]
+position = Vector2(-60, 60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="eyeL7" type="Node2D" parent="."]
+position = Vector2(0, -180)
+
+[node name="Circle" type="Sprite2D" parent="eyeL7"]
+position = Vector2(-60, -60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle2" type="Sprite2D" parent="eyeL7"]
+position = Vector2(60, -60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle3" type="Sprite2D" parent="eyeL7"]
+position = Vector2(60, 60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle4" type="Sprite2D" parent="eyeL7"]
+position = Vector2(-60, 60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="eyeL8" type="Node2D" parent="."]
+position = Vector2(180, -180)
+
+[node name="Circle" type="Sprite2D" parent="eyeL8"]
+position = Vector2(-60, -60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle2" type="Sprite2D" parent="eyeL8"]
+position = Vector2(60, -60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle3" type="Sprite2D" parent="eyeL8"]
+position = Vector2(60, 60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle4" type="Sprite2D" parent="eyeL8"]
+position = Vector2(-60, 60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="eyeL9" type="Node2D" parent="."]
+position = Vector2(-180, -180)
+
+[node name="Circle" type="Sprite2D" parent="eyeL9"]
+position = Vector2(-60, -60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle2" type="Sprite2D" parent="eyeL9"]
+position = Vector2(60, -60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle3" type="Sprite2D" parent="eyeL9"]
+position = Vector2(60, 60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")
+
+[node name="Circle4" type="Sprite2D" parent="eyeL9"]
+position = Vector2(-60, 60)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_08ttd")

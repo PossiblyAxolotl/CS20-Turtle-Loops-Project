@@ -1,0 +1,45 @@
+[gd_scene load_steps=3 format=3 uid="uid://5n6yn1mbger8"]
+
+[ext_resource type="Script" path="res://single.gd" id="1_n2o4o"]
+[ext_resource type="Texture2D" uid="uid://uo2th7eqqutj" path="res://circle.png" id="2_xptx7"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_n2o4o")
+
+[node name="frame" type="Camera2D" parent="."]
+
+[node name="Circle5" type="Sprite2D" parent="."]
+position = Vector2(-18, -3.3319e-05)
+rotation = -1.57079
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_xptx7")
+
+[node name="Circle4" type="Sprite2D" parent="."]
+position = Vector2(-8.00002, 7.99999)
+rotation = -1.57079
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_xptx7")
+
+[node name="Circle11" type="Sprite2D" parent="."]
+position = Vector2(8.00002, -7.99998)
+rotation = -1.57079
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_xptx7")
+
+[node name="Circle12" type="Sprite2D" parent="."]
+position = Vector2(18, 4.66466e-05)
+rotation = -1.57079
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_xptx7")
+
+[node name="Circle13" type="Sprite2D" parent="."]
+position = Vector2(7.99998, 8.00002)
+rotation = -1.57079
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_xptx7")
+
+[node name="Circle14" type="Sprite2D" parent="."]
+position = Vector2(-7.99998, -8.00001)
+rotation = -1.57079
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_xptx7")
